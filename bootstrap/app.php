@@ -12,8 +12,4 @@ $app = new \Slim\App([
 
 ]);
 
-$app->get('/', function ($request, $response){
-
-    return 'Hello World';
-
-});
+require __DIR__ . '/../app\routes.php';

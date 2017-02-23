@@ -12,4 +12,4 @@ $app = new \Slim\App([
 
 ]);
 
-require __DIR__ . '/../app\routes.php';
+require __DIR__ . '/../app/routes.php';

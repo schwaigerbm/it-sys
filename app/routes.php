@@ -1,6 +1,6 @@
 <?php
 
 
-$app->get('/', function (){
+$app->get('/home', function (){
         return'Hello World';
 });

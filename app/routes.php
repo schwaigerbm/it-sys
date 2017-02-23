@@ -1,6 +1,8 @@
 <?php
 
 
-$app->get('/home', function (){
-        return'Hello World';
+$app->get('/home', function ($request, $response){
+
+    return $this->view->render($response, 'home.twig');
+
 });
